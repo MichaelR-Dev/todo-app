@@ -25,3 +25,27 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/*.scrollbar-custom*/
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #a09454 #c8baab;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(113 63 18);
+  border-radius: 6px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  background-clip: padding-box;
+}
